@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>HTML Calculator</h1>
+
+    <input type="text" id="display" aria-label="Calculator display" autocomplete="off">
+
+    <br><br>
+
+    <button type="button" onclick="clearDisplay()">C</button>
+    <button type="button" onclick="deleteNumber()">DEL</button>
+    <button type="button" onclick="addValue('*')">x</button>
+    <button type="button" onclick="addValue('/')">/</button>
+
+    <br><br>
+
+    <button type="button" onclick="addValue('1')">1</button>
+    <button type="button" onclick="addValue('2')">2</button>
+    <button type="button" onclick="addValue('3')">3</button>
+    <button type="button" onclick="addValue('+')">+</button>
+
+    <br><br>
+
+    <button type="button" onclick="addValue('4')">4</button>
+    <button type="button" onclick="addValue('5')">5</button>
+    <button type="button" onclick="addValue('6')">6</button>
+    <button type="button" onclick="addValue('-')">-</button>
+
+    <br><br>
+
+    <button type="button" onclick="addValue('7')">7</button>
+    <button type="button" onclick="addValue('8')">8</button>
+    <button type="button" onclick="addValue('9')">9</button>
+    <button type="button" onclick="addValue('(')">(</button>
+
+    <br><br>
+
+    <button type="button" onclick="addValue('0')">0</button>
+    <button type="button" onclick="addValue('.')">.</button>
+    <button type="button" onclick="calculate()">=</button>
+    <button type="button" onclick="addValue(')')">)</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
